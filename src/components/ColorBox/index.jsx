@@ -16,10 +16,8 @@ function ColorBox() {
 
     function handleBoxClick() {
         //get random color -> set color
-
         const newColor = getRandomColor()
         setColor(newColor);
-
         localStorage.setItem('box_color', newColor)
     }
 
